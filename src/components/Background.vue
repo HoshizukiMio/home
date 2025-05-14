@@ -41,11 +41,7 @@ const changeBg = (type) => {
   if (type == 0) {
     bgUrl.value = `/images/bg${bgRandom}.webp`;
   } else if (type == 1) {
-    bgUrl.value = "https://api.dujin.org/bing/1920.php";
-  } else if (type == 2) {
-    bgUrl.value = "https://api.vvhan.com/api/wallpaper/views";
-  } else if (type == 3) {
-    bgUrl.value = "https://api.vvhan.com/api/wallpaper/acg";
+    bgUrl.value = "https://api-img.hoshizukimio.com";
   }
 };
 
